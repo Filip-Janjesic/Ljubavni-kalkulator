@@ -1,2 +1,0 @@
-# Ljubavni-kalkulator
- 
