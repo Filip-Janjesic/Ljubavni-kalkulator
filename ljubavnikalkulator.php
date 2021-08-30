@@ -7,7 +7,7 @@ if(isset($_POST['submit']))
   $brojslova=strlen($imena);    
   if(checkInput($ime1,$ime2)==0 || emptyInput($ime1,$ime2)==0)
   {
-    echo '<h3>Incorrect input.<br> Try again.</h3>';
+    echo '<h3>Unos nije točan.<br> Pokušaj ponovno.</h3>';
   }
   else 
   {
