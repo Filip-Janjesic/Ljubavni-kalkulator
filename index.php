@@ -16,7 +16,8 @@
   <div class="login-box" style="margin-top: 100px; margin-left:-300px; margin-right:350px;">
   <div class="row">
      <div class="text1">
-               <p>Napiši svoje ime i ime svoje simpatije.
+               <p>
+                 Napiši svoje ime i ime svoje simpatije.
                  Nakon toga ispod svakog slova napiši koliko se puta
                  ono ponavlja. Svaki prvi broj ispod svog imena i 
                  posljednji broj ispod imena tvoje simpatije, i tako 
@@ -30,7 +31,7 @@
             </div>
             <hr>
     <div class="large-12 columns">
-        <h4 class="text-center"><p>Upišite željena imena</p></h4>
+        <h4 class="text-center"><p>Upišite imena</p></h4>
         <form action="" method="post">
       <div class="inputs">
         <div class="row">
