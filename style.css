@@ -1,12 +1,15 @@
-*{
+*
+{
     font-family: "Gill Sans", sans-serif;
 }
+
 body
 {
     background-image: url(includes/background.jpg);
     background-size: 1900px;
     background-repeat: no-repeat;
 }
+
 .button
 {
     background-color: #000000;
@@ -18,6 +21,7 @@ h4
     font-size: 40px;
     color: #000000;
 }
+
 .text1
 {
 text-align: center;
@@ -25,6 +29,7 @@ font-size: 20px;
 color: #000000;
 margin-top: 35px;
 }
+
 .imena
 {
     font-size: 50px;
@@ -34,59 +39,57 @@ margin-top: 35px;
     top: -700px;
     letter-spacing:8px;
 }
+
 input
 {
     background-image: linear-gradient(90deg,#000000 , pink);
 }
+
 .heart
 {
     position: relative;
     left: 500px;
     top: -500px;
     font-size: 100px;
-    animation: heart 1.2s linear infinite;
 }
+
 @keyframes heart
 {
-    0%
-    {
+    0%{
         transform:  scale(1.09);
     }
-    80%
-    {
+    80%{
         transform:  scale(1.0);
     }
-    100%
-    {
+    100%{
         transform:  scale(0.8);
     }
 }
+
 h3
 {
     position: relative;
-    font-size: 40px;
-    top: -810px;
+    font-size: 50px;
+    top: -500px;
     left: 500px;
     text-align: center;
     font-family:"Gill Sans", sans-serif;
     color: #000000;;
-    animation: heart 1.2s linear infinite;
 }
+
 @keyframes h3
 {
-    0%
-    {
+    0%{
         transform:  scale(1.09);
     }
-    80%
-    {
+    80%{
         transform:  scale(1.0);
     }
-    100%
-    {
+    100%{
         transform:  scale(0.8);
     }
 }
+
 .odabir
 {
     font-size: 20px;

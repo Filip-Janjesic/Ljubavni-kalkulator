@@ -67,5 +67,5 @@ function recursiveLove($names)
       }
     return recursiveLove($names=implode('',$results));
   }
-  return '<h3>'.ucfirst($_POST['name1']).' and '.ucfirst($_POST['name2']).' are<br>'.$names.'% in love!</h3>';
+  return '<h3>'.ucfirst($_POST['name1']).' i '.ucfirst($_POST['name2']).' su <br>'.$names.'% zaljubljeni!</h3>';
 }
